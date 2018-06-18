@@ -1,13 +1,13 @@
 {
-  "name": "webkit-sassui-short-name",
+  "name": "weapp-sassui-short-name",
   "version": "0.0.1",
-  "description": "webkit-sassui-short-name",
-  "homepage": "https://github.com/afeiship/webkit-sassui-short-name",
+  "description": "weapp-sassui-short-name",
+  "homepage": "https://github.com/afeiship/weapp-sassui-short-name",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
   },
-  "main": "dist/webkit-sassui-short-name.scss",
+  "main": "dist/weapp-sassui-short-name.scss",
   "scripts": {
     "build": "gulp"
   },
