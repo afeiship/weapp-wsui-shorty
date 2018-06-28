@@ -188,22 +188,6 @@
   margin-left: 0 !important;
 }
 
-.mr__ > *:last-child {
-  margin-right: 0;
-}
-
-.ml__ > *:first-child {
-  margin-left: 0;
-}
-
-.mt__ > *:first-child {
-  margin-top: 0;
-}
-
-.mb__ > *:last-child {
-  margin-bottom: 0;
-}
-
 /*margin End*/
 .ovh {
   overflow: hidden;
@@ -252,22 +236,6 @@
 
 .pl0 {
   padding-left: 0 !important;
-}
-
-.pr__ > *:last-child {
-  padding-right: 0;
-}
-
-.pl__ > *:first-child {
-  padding-left: 0;
-}
-
-.pt__ > *:first-child {
-  padding-top: 0;
-}
-
-.pb__ > *:last-child {
-  padding-bottom: 0;
 }
 
 /*padding End*/
@@ -476,7 +444,6 @@
   user-select: none;
 }
 
-[hidden],
 .hidden {
   display: none !important;
 }
