@@ -150,6 +150,10 @@
   height: 100%;
 }
 
+.h100v {
+  height: 100vh;
+}
+
 .min-h100 {
   min-height: 100%;
 }
@@ -511,6 +515,10 @@
 /**transparent  End**/
 .w100 {
   width: 100%;
+}
+
+.w100v {
+  width: 100vw;
 }
 
 .min-w100 {
