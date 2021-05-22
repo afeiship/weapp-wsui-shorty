@@ -5,3 +5,8 @@
 ```shell
 npm i -S @jswork/weapp-wsui-shorty
 ```
+
+## usage
+```scss
+@import '~@jswork/weapp-wsui-shorty';
+```
