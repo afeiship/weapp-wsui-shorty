@@ -5,3 +5,4 @@ docs
 test
 .release-it.json
 .editorconfig
+gulpfile.js
