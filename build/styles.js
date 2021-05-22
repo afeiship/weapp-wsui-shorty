@@ -12,12 +12,7 @@
   //styles
   gulp.task('styles', function() {
     return gulp.src('src/*.scss')
-      .pipe($.concat('weapp-sassui-short-name.scss'))
-      .pipe(gulp.dest('dist'))
-      .pipe($.sass(config.sassOptions.normal).on('error', $.sass.logError))
-      .pipe(gulp.dest('dist'))
-      .pipe($.sass(config.sassOptions.minify).on('error', $.sass.logError))
-      .pipe($.rename({extname:'.min.css'}))
+      .pipe($.concat('index.scss'))
       .pipe(gulp.dest('dist'));
   });
 
