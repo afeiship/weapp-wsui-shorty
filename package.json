@@ -22,5 +22,9 @@
     "gulp-sass": "^4.1.0",
     "release-it": "^14.6.2",
     "yargs": "^17.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
