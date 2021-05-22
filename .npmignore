@@ -3,3 +3,5 @@ node_modules
 src
 docs
 test
+.release-it.json
+.editorconfig

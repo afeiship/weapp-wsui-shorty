@@ -7,9 +7,10 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
-  "main": "dist/weapp-wsui-shorty.scss",
+  "main": "dist/index.scss",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "release": "release-it"
   },
   "license": "MIT",
   "devDependencies": {
@@ -19,6 +20,7 @@
     "gulp-load-plugins": "^2.0.6",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
+    "release-it": "^14.6.2",
     "yargs": "^17.0.1"
   }
 }
