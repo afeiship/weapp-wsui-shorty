@@ -26,5 +26,12 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "weapp",
+    "short",
+    "name",
+    "wsui",
+    "shorty"
+  ]
 }
