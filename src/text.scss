@@ -1,11 +1,11 @@
 /**text-decoration Start**/
-.tdn{
+.tdn {
   text-decoration: none;
 }
-.tdu{
+.tdu {
   text-decoration: underline;
 }
-.tdlh{
+.tdlh {
   text-decoration: line-through;
 }
 
@@ -21,6 +21,26 @@
   text-align: right;
 }
 
+.tj {
+  text-align: justify;
+}
+
+.tlr_ {
+  > view:first-child,
+  > text:first-child {
+    text-align: left;
+  }
+
+  > view:last-child,
+  > text:last-child {
+    text-align: right;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
 .ell {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -28,12 +48,16 @@
   overflow: hidden;
 }
 
-.b{
+.b {
   font-weight: bold;
 }
 
-.n{
+.n {
   font-weight: normal;
   font-style: normal;
+}
+
+.usn {
+  user-select: none;
 }
 /**text-decoration  End**/

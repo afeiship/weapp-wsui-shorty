@@ -1,29 +1,45 @@
 /**display Start**/
 .db {
-  display: block;
+  &,
+  &_ > view,
+  &_ > text {
+    display: block;
+  }
 }
 
 .di {
-  display: inline;
-}
-
-.dn {
-  display: none;
+  &,
+  &_ > view,
+  &_ > text {
+    display: inline;
+  }
 }
 
 .dib {
-  display: inline-block;
+  &,
+  &_ > view,
+  &_ > text {
+    display: inline-block;
+  }
+}
+
+.dtbc {
+  &,
+  &_ > view,
+  &_ > text {
+    display: table-cell;
+  }
 }
 
 .dtb {
   display: table;
 }
 
-.dflex{
+.dflex {
   display: flex;
 }
 
-.dtbc {
-  display: table-cell;
+.dn {
+  display: none;
 }
 /**display  End**/

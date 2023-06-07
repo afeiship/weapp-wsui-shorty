@@ -1,18 +1,35 @@
 /*padding Start*/
-.p0{
-  padding:0!important;
+.p0 {
+  padding: 0 !important;
 }
-.pt0{
-  padding-top: 0!important;
+.pt0 {
+  padding-top: 0 !important;
 }
-.pr0{
-  padding-right: 0!important;
+.pr0 {
+  padding-right: 0 !important;
 }
-.pb0{
-  padding-bottom: 0!important;
+.pb0 {
+  padding-bottom: 0 !important;
 }
-.pl0{
-  padding-left: 0!important;
+.pl0 {
+  padding-left: 0 !important;
+}
+
+.pr_ > view:last-child,
+.pr_ > text:last-child {
+  padding-right: 0;
+}
+
+.pl_ > view:first-child,
+.pl_ > text:first-child {
+  padding-left: 0;
+}
+.pt_ > view:first-child,
+.pt_ > text:first-child {
+  padding-top: 0;
+}
+.pb_ > view:last-child,
+.pb_ > text:last-child {
+  padding-bottom: 0;
 }
 /*padding End*/
-

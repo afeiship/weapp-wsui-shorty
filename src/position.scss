@@ -1,14 +1,26 @@
 /**position Start**/
 .rel {
-  position: relative;
+  &,
+  &_ > view,
+  &_ > text {
+    position: relative;
+  }
+}
+
+.abs {
+  &,
+  &_ > view,
+  &_ > text {
+    position: absolute;
+  }
 }
 
 .fixed {
   position: fixed;
 }
 
-.abs {
-  position: absolute;
+.sticky {
+  position: sticky;
 }
 
 .t0 {
@@ -64,14 +76,6 @@
   left: 0;
 }
 
-.p-top{
-  top:0;
-  @extend .lr0;
-}
-.p-bottom{
-  bottom:0;
-  @extend .lr0;
-}
 
 .lt5{
   left: 50%;
@@ -118,5 +122,14 @@
   left: 100%;
 }
 
+
+.p-top{
+  top:0;
+  @extend .lr0;
+}
+.p-bottom{
+  bottom:0;
+  @extend .lr0;
+}
 
 /**position  End**/

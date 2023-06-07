@@ -1,13 +1,25 @@
 /*align Start*/
 .vat {
-  vertical-align: top;
+  &,
+  &_ > view,
+  &_ > text {
+    vertical-align: top;
+  }
 }
 
 .vab {
-  vertical-align: bottom;
+  &,
+  &_ > view,
+  &_ > text {
+    vertical-align: bottom;
+  }
 }
 
 .vam {
-  vertical-align: middle;
+  &,
+  &_ > view,
+  &_ > text {
+    vertical-align: middle;
+  }
 }
 /*align End*/

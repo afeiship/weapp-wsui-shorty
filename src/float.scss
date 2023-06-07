@@ -1,10 +1,47 @@
 /**float Start**/
 .l {
-  float: left;
+  &,
+  &_ > view,
+  &_ > text {
+    float: left;
+  }
 }
 
 .r {
-  float: right;
+  &,
+  &_ > view,
+  &_ > text {
+    float: right;
+  }
+}
+
+.lfix_ {
+  @extend .clearfix;
+  &_ > view,
+  &_ > text {
+    float: left;
+  }
+}
+
+.rfix_ {
+  @extend .clearfix;
+  &_ > view,
+  &_ > text {
+    float: right;
+  }
+}
+
+.lrfix_ {
+  @extend .clearfix;
+  view *:first-child,
+  text *:first-child {
+    float: left;
+  }
+
+  view *:first-child,
+  text *:first-child {
+    float: right;
+  }
 }
 
 /**float  End**/
