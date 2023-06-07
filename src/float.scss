@@ -33,13 +33,13 @@
 
 .lrfix_ {
   @extend .clearfix;
-  view *:first-child,
-  text *:first-child {
+  view:first-child,
+  text:first-child {
     float: left;
   }
 
-  view *:first-child,
-  text *:first-child {
+  view:first-child,
+  text:first-child {
     float: right;
   }
 }
